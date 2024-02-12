@@ -1,0 +1,332 @@
+{
+ "releaseTime": "2011-05-30T22:00:00+00:00",
+ "mainClass": "org.mcphackers.launchwrapper.Launch",
+ "javaVersion": {
+  "component": "jre-legacy",
+  "majorVersion": 8
+ },
+ "libraries": [
+  {
+   "downloads": {
+    "artifact": {
+     "sha1": "39c7796b469a600f72380316f6b1f11db6c2c7c4",
+     "path": "net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar",
+     "size": 208338,
+     "url": "https://libraries.minecraft.net/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar"
+    },
+    "classifiers": {"sources": {
+     "sha1": "82604cfeb87b9ab70ed70aa19a137de8ceb21504",
+     "path": "net/java/jinput/jinput/2.0.5/jinput-2.0.5-sources.jar",
+     "size": 282276,
+     "url": "https://libraries.minecraft.net/net/java/jinput/jinput/2.0.5/jinput-2.0.5-sources.jar"
+    }}
+   },
+   "name": "net.java.jinput:jinput:2.0.5"
+  },
+  {
+   "downloads": {
+    "artifact": {
+     "sha1": "e12fe1fda814bd348c1579329c86943d2cd3c6a6",
+     "path": "net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar",
+     "size": 7508,
+     "url": "https://libraries.minecraft.net/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar"
+    },
+    "classifiers": {"sources": {
+     "sha1": "d18678a00b216863206a1bb6190507e02a32971b",
+     "path": "net/java/jutils/jutils/1.0.0/jutils-1.0.0-sources.jar",
+     "size": 10247,
+     "url": "https://repo.maven.apache.org/maven2/net/java/jutils/jutils/1.0.0/jutils-1.0.0-sources.jar"
+    }}
+   },
+   "name": "net.java.jutils:jutils:1.0.0"
+  },
+  {
+   "downloads": {
+    "artifact": {
+     "sha1": "7c731ace778ed7e79230b14f540c521ba4ee97aa",
+     "path": "org/lwjgl/lwjgl/lwjgl/2.9.4/lwjgl-2.9.4.jar",
+     "size": 1056258,
+     "url": "https://mcphackers.github.io/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4/lwjgl-2.9.4.jar"
+    },
+    "classifiers": {"sources": {
+     "sha1": "00238e95dc14f54ae62ca5dba8e43ea1ee7bcb2c",
+     "path": "org/lwjgl/lwjgl/lwjgl/2.9.4/lwjgl-2.9.4-sources.jar",
+     "size": 951945,
+     "url": "https://mcphackers.github.io/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4/lwjgl-2.9.4-sources.jar"
+    }}
+   },
+   "name": "org.lwjgl.lwjgl:lwjgl:2.9.4"
+  },
+  {
+   "downloads": {
+    "artifact": {
+     "sha1": "a3a627bf1735bc8d924866626c970b047b32994f",
+     "path": "org/lwjgl/lwjgl/lwjgl_util/2.9.4/lwjgl_util-2.9.4.jar",
+     "size": 174009,
+     "url": "https://mcphackers.github.io/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.4/lwjgl_util-2.9.4.jar"
+    },
+    "classifiers": {"sources": {
+     "sha1": "8332c819b1f425bea42a5b141fea672d9d1f99ad",
+     "path": "org/lwjgl/lwjgl/lwjgl_util/2.9.4/lwjgl_util-2.9.4-sources.jar",
+     "size": 232838,
+     "url": "https://mcphackers.github.io/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.4/lwjgl_util-2.9.4-sources.jar"
+    }}
+   },
+   "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.4"
+  },
+  {
+   "extract": {"exclude": ["META-INF/"]},
+   "downloads": {"classifiers": {
+    "natives-windows": {
+     "sha1": "fbc2afb3e288578e9942578decb6291a490549a0",
+     "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.3/lwjgl-platform-2.9.3-natives-windows.jar",
+     "size": 613744,
+     "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.3/lwjgl-platform-2.9.3-natives-windows.jar"
+    },
+    "natives-osx": {
+     "sha1": "6686cf6ddaa20b4290aa6599a09bc0d17369be05",
+     "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.3/lwjgl-platform-2.9.3-natives-osx.jar",
+     "size": 426817,
+     "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.3/lwjgl-platform-2.9.3-natives-osx.jar"
+    },
+    "natives-linux": {
+     "sha1": "b1eafe80093381c56415731e1d64279e6140bcd0",
+     "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.3/lwjgl-platform-2.9.3-natives-linux.jar",
+     "size": 578675,
+     "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.3/lwjgl-platform-2.9.3-natives-linux.jar"
+    }
+   }},
+   "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.3",
+   "natives": {
+    "osx": "natives-osx",
+    "linux": "natives-linux",
+    "windows": "natives-windows"
+   }
+  },
+  {
+   "extract": {"exclude": ["META-INF/"]},
+   "downloads": {"classifiers": {
+    "natives-windows": {
+     "sha1": "385ee093e01f587f30ee1c8a2ee7d408fd732e16",
+     "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar",
+     "size": 155179,
+     "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar"
+    },
+    "natives-osx": {
+     "sha1": "53f9c919f34d2ca9de8c51fc4e1e8282029a9232",
+     "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar",
+     "size": 12186,
+     "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar"
+    },
+    "natives-linux": {
+     "sha1": "7ff832a6eb9ab6a767f1ade2b548092d0fa64795",
+     "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar",
+     "size": 10362,
+     "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar"
+    }
+   }},
+   "name": "net.java.jinput:jinput-platform:2.0.5",
+   "natives": {
+    "osx": "natives-osx",
+    "linux": "natives-linux",
+    "windows": "natives-windows"
+   }
+  },
+  {
+   "downloads": {
+    "artifact": {
+     "sha1": "d3414b749dbb24dd0f73618a93ec2c551e5a02ca",
+     "path": "org/mcphackers/launchwrapper/1.0/launchwrapper-1.0.jar",
+     "size": 112159,
+     "url": "https://mcphackers.github.io/libraries/org/mcphackers/launchwrapper/1.0/launchwrapper-1.0.jar"
+    },
+    "classifiers": {"sources": {
+     "sha1": "4bbcb8af0d1d47fe4dd192cb4f53820257abcc85",
+     "path": "org/mcphackers/launchwrapper/1.0/launchwrapper-1.0-sources.jar",
+     "size": 74343,
+     "url": "https://mcphackers.github.io/libraries/org/mcphackers/launchwrapper/1.0/launchwrapper-1.0-sources.jar"
+    }}
+   },
+   "name": "org.mcphackers:launchwrapper:1.0"
+  },
+  {
+   "downloads": {
+    "artifact": {
+     "sha1": "d96c99a30f5e1a19b0e609dbb19a44d8518ac01e",
+     "path": "org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar",
+     "size": 52660,
+     "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar"
+    },
+    "classifiers": {"sources": {
+     "sha1": "d7c4f2660898c227b2fb209f94ca15ae45722535",
+     "path": "org/ow2/asm/asm-tree/9.2/asm-tree-9.2-sources.jar",
+     "size": 76044,
+     "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.2/asm-tree-9.2-sources.jar"
+    }}
+   },
+   "name": "org.ow2.asm:asm-tree:9.2"
+  },
+  {
+   "downloads": {
+    "artifact": {
+     "sha1": "81a03f76019c67362299c40e0ba13405f5467bff",
+     "path": "org/ow2/asm/asm/9.2/asm-9.2.jar",
+     "size": 122004,
+     "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.2/asm-9.2.jar"
+    },
+    "classifiers": {"sources": {
+     "sha1": "51671fdebd3583f10254fab0e2077ed49c461650",
+     "path": "org/ow2/asm/asm/9.2/asm-9.2-sources.jar",
+     "size": 180459,
+     "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.2/asm-9.2-sources.jar"
+    }}
+   },
+   "name": "org.ow2.asm:asm:9.2"
+  },
+  {
+   "downloads": {
+    "artifact": {
+     "sha1": "d2c95f0a83b1b2b28131d46abfe8e68f7dc07ede",
+     "path": "org/json/json/20230311/json-20230311.jar",
+     "size": 65667,
+     "url": "https://mcphackers.github.io/libraries/org/json/json/20230311/json-20230311.jar"
+    },
+    "classifiers": {"sources": {
+     "sha1": "1d2af7dcdaaaa910b252988c06520e09125575eb",
+     "path": "org/json/json/20230311/json-20230311-sources.jar",
+     "size": 70956,
+     "url": "https://mcphackers.github.io/libraries/org/json/json/20230311/json-20230311-sources.jar"
+    }}
+   },
+   "name": "org.json:json:20230311"
+  },
+  {
+   "downloads": {
+    "artifact": {
+     "sha1": "4e61cd854bbd3d9765bd7c46fc9008d654b29281",
+     "path": "com/paulscode/codecjorbis/20230120/codecjorbis-20230120.jar",
+     "size": 102767,
+     "url": "https://mcphackers.github.io/libraries/com/paulscode/codecjorbis/20230120/codecjorbis-20230120.jar"
+    },
+    "classifiers": {"sources": {
+     "sha1": "debb14b0bb049e96cc84087d3b953e56c60867c3",
+     "path": "com/paulscode/codecjorbis/20230120/codecjorbis-20230120-sources.jar",
+     "size": 94216,
+     "url": "https://mcphackers.github.io/libraries/com/paulscode/codecjorbis/20230120/codecjorbis-20230120-sources.jar"
+    }}
+   },
+   "name": "com.paulscode:codecjorbis:20230120"
+  },
+  {
+   "downloads": {
+    "artifact": {
+     "sha1": "12f031cfe88fef5c1dd36c563c0a3a69bd7261da",
+     "path": "com/paulscode/codecwav/20101023/codecwav-20101023.jar",
+     "size": 5618,
+     "url": "https://libraries.minecraft.net/com/paulscode/codecwav/20101023/codecwav-20101023.jar"
+    },
+    "classifiers": {"sources": {
+     "sha1": "71ec00b9b9c1a6a2c3a8a25f481a23ddb5b21ddb",
+     "path": "com/paulscode/codecwav/20101023/codecwav-20101023-sources.jar",
+     "size": 4938,
+     "url": "https://libraries.minecraft.net/com/paulscode/codecwav/20101023/codecwav-20101023-sources.jar"
+    }}
+   },
+   "name": "com.paulscode:codecwav:20101023"
+  },
+  {
+   "downloads": {
+    "artifact": {
+     "sha1": "5c5e304366f75f9eaa2e8cca546a1fb6109348b3",
+     "path": "com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar",
+     "size": 21679,
+     "url": "https://libraries.minecraft.net/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar"
+    },
+    "classifiers": {"sources": {
+     "sha1": "945ff5711de27751cf699641d1ea316ba6cf7589",
+     "path": "com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar-sources",
+     "size": 18781,
+     "url": "https://libraries.minecraft.net/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123-sources.jar"
+    }}
+   },
+   "name": "com.paulscode:libraryjavasound:20101123"
+  },
+  {
+   "downloads": {
+    "artifact": {
+     "sha1": "73e80d0794c39665aec3f62eee88ca91676674ef",
+     "path": "com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar",
+     "size": 18981,
+     "url": "https://libraries.minecraft.net/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar"
+    },
+    "classifiers": {"sources": {
+     "sha1": "ecfc8dac1d41bef748997e4edf563d486923ee1e",
+     "path": "com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824-sources.jar",
+     "size": 19925,
+     "url": "https://libraries.minecraft.net/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824-sources.jar"
+    }}
+   },
+   "name": "com.paulscode:librarylwjglopenal:20100824"
+  },
+  {
+   "downloads": {
+    "artifact": {
+     "sha1": "419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6",
+     "path": "com/paulscode/soundsystem/20120107/soundsystem-20120107.jar",
+     "size": 65020,
+     "url": "https://libraries.minecraft.net/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar"
+    },
+    "classifiers": {"sources": {
+     "sha1": "01b9f4eb11ef11fede7fd76a2e5e8203c2a8adcd",
+     "path": "com/paulscode/soundsystem/20120107/soundsystem-20120107-sources.jar",
+     "size": 76061,
+     "url": "https://libraries.minecraft.net/com/paulscode/soundsystem/20120107/soundsystem-20120107-sources.jar"
+    }}
+   },
+   "name": "com.paulscode:soundsystem:20120107"
+  },
+  {
+   "downloads": {
+    "artifact": {
+     "sha1": "855b05d238b72b03197e6702a765f344a32b8291",
+     "path": "org/mcphackers/rdi/rdi/1.0/rdi-1.0.jar",
+     "size": 79606,
+     "url": "https://mcphackers.github.io/libraries/org/mcphackers/rdi/rdi/1.0/rdi-1.0.jar"
+    },
+    "classifiers": {"sources": {
+     "sha1": "def0c8e36a96338a9866141088a45fe4bfaab29a",
+     "path": "org/mcphackers/rdi/rdi/1.0/rdi-1.0-sources.jar",
+     "size": 43258,
+     "url": "https://mcphackers.github.io/libraries/org/mcphackers/rdi/rdi/1.0/rdi-1.0-sources.jar"
+    }}
+   },
+   "name": "org.mcphackers.rdi:rdi:1.0"
+  }
+ ],
+ "type": "old_beta",
+ "assets": "empty",
+ "minecraftArguments": "--username ${auth_player_name} --session ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets} --resourcesProxyPort 11705 --skinProxy pre-b1.9-pre4",
+ "downloads": {
+  "server": {
+   "sha1": "e6c5db853f3b019599c24ce3d97b45bb7d8e02bd",
+   "size": 491437,
+   "url": "http://files.betacraft.uk/server-archive/beta/b1.6.6.jar"
+  },
+  "client": {
+   "sha1": "f95fe05711d09553ca2a9089f981741c13d6b8c4",
+   "size": 1423592,
+   "url": "https://launcher.mojang.com/v1/objects/f95fe05711d09553ca2a9089f981741c13d6b8c4/client.jar"
+  }
+ },
+ "complianceLevel": 0,
+ "minimumLauncherVersion": 7,
+ "assetIndex": {
+  "sha1": "62ea787c1f800c091b98678b050453a5ae59d7bc",
+  "totalSize": 0,
+  "size": 14,
+  "id": "empty",
+  "url": "https://mcphackers.github.io/assets/empty.json"
+ },
+ "id": "b1.6.6",
+ "time": "2023-03-29T12:53:54+00:00"
+}

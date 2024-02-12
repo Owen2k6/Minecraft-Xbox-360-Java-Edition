@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Minecraft Client/libraries/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar" sourcepath="libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5-sources.jar"/>
+	<classpathentry kind="lib" path="libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar" sourcepath="libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="libraries/org/lwjgl/lwjgl/lwjgl/2.9.4/lwjgl-2.9.4.jar" sourcepath="libraries/org/lwjgl/lwjgl/lwjgl/2.9.4/lwjgl-2.9.4-sources.jar"/>
+	<classpathentry kind="lib" path="libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.4/lwjgl_util-2.9.4.jar" sourcepath="libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.4/lwjgl_util-2.9.4-sources.jar"/>
+	<classpathentry kind="lib" path="libraries/org/mcphackers/launchwrapper/1.0/launchwrapper-1.0.jar" sourcepath="libraries/org/mcphackers/launchwrapper/1.0/launchwrapper-1.0-sources.jar"/>
+	<classpathentry kind="lib" path="libraries/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar" sourcepath="libraries/org/ow2/asm/asm-tree/9.2/asm-tree-9.2-sources.jar"/>
+	<classpathentry kind="lib" path="libraries/org/ow2/asm/asm/9.2/asm-9.2.jar" sourcepath="libraries/org/ow2/asm/asm/9.2/asm-9.2-sources.jar"/>
+	<classpathentry kind="lib" path="libraries/org/json/json/20230311/json-20230311.jar" sourcepath="libraries/org/json/json/20230311/json-20230311-sources.jar"/>
+	<classpathentry kind="lib" path="libraries/com/paulscode/codecjorbis/20230120/codecjorbis-20230120.jar" sourcepath="libraries/com/paulscode/codecjorbis/20230120/codecjorbis-20230120-sources.jar"/>
+	<classpathentry kind="lib" path="libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar" sourcepath="libraries/com/paulscode/codecwav/20101023/codecwav-20101023-sources.jar"/>
+	<classpathentry kind="lib" path="libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar" sourcepath="libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar-sources"/>
+	<classpathentry kind="lib" path="libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar" sourcepath="libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824-sources.jar"/>
+	<classpathentry kind="lib" path="libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar" sourcepath="libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107-sources.jar"/>
+	<classpathentry kind="lib" path="libraries/org/mcphackers/rdi/rdi/1.0/rdi-1.0.jar" sourcepath="libraries/org/mcphackers/rdi/rdi/1.0/rdi-1.0-sources.jar"/>
+	<classpathentry kind="lib" path="jars/deobfuscated.jar" sourcepath="jars/deobfuscated-source.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="output"/>
+</classpath>
