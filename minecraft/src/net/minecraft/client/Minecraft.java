@@ -1472,7 +1472,7 @@ public abstract class Minecraft implements Runnable {
 		Canvas var6 = new Canvas();
 		var5.setLayout(new BorderLayout());
 		var5.add(var6, "Center");
-		var6.setPreferredSize(new Dimension(854, 480));
+		var6.setPreferredSize(new Dimension(1280, 720));
 		var5.pack();
 		var5.setLocationRelativeTo((Component)null);
 		MinecraftImpl var7 = new MinecraftImpl(var5, var6, (MinecraftApplet)null, 854, 480, var3, var5);
