@@ -218,7 +218,7 @@ public abstract class Minecraft implements Runnable {
 			Display.setDisplayMode(new DisplayMode(this.displayWidth, this.displayHeight));
 		}
 
-		Display.setTitle("Minecraft Minecraft Beta 1.6.6");
+		Display.setTitle("Minecraft Minecraft Xbox 360 Edition");
 
 		try {
 			Display.create();
